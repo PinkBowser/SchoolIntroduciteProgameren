@@ -51,7 +51,7 @@ class TicTacToeUitprinter {
 
         }
         if (Winst1 == 1) System.out.println("Speler 1 heeft gewonnen");
-        if (Winst2 == 1) System.out.println("Speler 2 heeft gewonnen");
+        else if (Winst2 == 1) System.out.println("Speler 2 heeft gewonnen");
         else System.out.println("Gelijkspel");
 
 
@@ -96,45 +96,45 @@ class TicTacToeUitprinter {
     }
 
     public void WinstSpeler1() {
-        if (Linksboven.equals("O") && (Boven.equals("O")) && (Rechtsboven.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
-        if (LinksMidden.equals("O") && (Midden.equals("O")) && (Rechtsmidden.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
-        if (Linksonder.equals("O") && (Onder.equals("O")) && (Rechtsonder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
+        if (Linksboven.equals("O") && (Boven.equals("O")) && (Rechtsboven.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
+        if (LinksMidden.equals("O") && (Midden.equals("O")) && (Rechtsmidden.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
+        if (Linksonder.equals("O") && (Onder.equals("O")) && (Rechtsonder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
 
-        if (Linksboven.equals("O") && (LinksMidden.equals("O")) && (Linksonder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
-        if (Boven.equals("O") && (Midden.equals("O")) && (Onder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
-        if (Rechtsonder.equals("O") && (Onder.equals("O")) && (Linksonder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
+        if (Linksboven.equals("O") && (LinksMidden.equals("O")) && (Linksonder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
+        if (Boven.equals("O") && (Midden.equals("O")) && (Onder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
+        if (Rechtsonder.equals("O") && (Onder.equals("O")) && (Linksonder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
 
-        if (Linksboven.equals("O") && (Midden.equals("O")) && (Rechtsonder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
-        if (Rechtsboven.equals("O") && (Midden.equals("O")) && (Linksonder.equals("O"))) Winst1 = 1;
-        System.out.println("Winst speler 1");
+        if (Linksboven.equals("O") && (Midden.equals("O")) && (Rechtsonder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
+        if (Rechtsboven.equals("O") && (Midden.equals("O")) && (Linksonder.equals("O"))) {Winst1 = 1;
+        System.out.println("Winst speler 1");}
     }
 
     public void WinstSpeler2() {
-        if (Linksboven.equals("X") && (Boven.equals("X")) && (Rechtsboven.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
-        if (LinksMidden.equals("X") && (Midden.equals("X")) && (Rechtsmidden.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
-        if (Linksonder.equals("X") && (Onder.equals("X")) && (Rechtsonder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
+        if (Linksboven.equals("X") && (Boven.equals("X")) && (Rechtsboven.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
+        if (LinksMidden.equals("X") && (Midden.equals("X")) && (Rechtsmidden.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
+        if (Linksonder.equals("X") && (Onder.equals("X")) && (Rechtsonder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
 
-        if (Linksboven.equals("X") && (LinksMidden.equals("X")) && (Linksonder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
-        if (Boven.equals("X") && (Midden.equals("X")) && (Onder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
-        if (Rechtsonder.equals("X") && (Onder.equals("X")) && (Linksonder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
+        if (Linksboven.equals("X") && (LinksMidden.equals("X")) && (Linksonder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
+        if (Boven.equals("X") && (Midden.equals("X")) && (Onder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
+        if (Rechtsonder.equals("X") && (Onder.equals("X")) && (Linksonder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
 
-        if (Linksboven.equals("X") && (Midden.equals("X")) && (Rechtsonder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
-        if (Rechtsboven.equals("X") && (Midden.equals("X")) && (Linksonder.equals("X"))) Winst2 = 1;
-        System.out.println("Winst speler 2");
+        if (Linksboven.equals("X") && (Midden.equals("X")) && (Rechtsonder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
+        if (Rechtsboven.equals("X") && (Midden.equals("X")) && (Linksonder.equals("X"))) {Winst2 = 1;
+        System.out.println("Winst speler 2");}
 
 
     }
