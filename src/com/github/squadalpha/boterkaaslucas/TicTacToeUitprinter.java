@@ -1,4 +1,4 @@
-package com.github.squadalpha;
+package com.github.squadalpha.boterkaaslucas;
 
 import java.util.Scanner;
 

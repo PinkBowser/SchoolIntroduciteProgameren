@@ -1,4 +1,4 @@
-package com.github.squadalpha;
+package com.github.squadalpha.schoolopdrachten;
 import java.util.Scanner;
 
 class DagVrager {
